@@ -1,0 +1,1617 @@
+[WARN ][20180120 12:01:02,837][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server 47.100.116.212/47.100.116.212:2181, unexpected error, closing socket connection and attempting reconnect
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:355)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:04,077][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 12:01:05,673][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:05,747][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:07,789][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:07,790][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:09,593][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:09,594][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:11,168][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:11,169][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:12,291][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:12,292][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:14,048][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:14,049][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:15,205][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:15,205][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:16,657][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:16,658][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:18,072][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:18,072][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:20,019][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:20,020][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:21,598][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:21,599][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:22,937][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:27,881][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:29,603][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:29,603][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:31,326][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:31,327][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:33,121][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:33,121][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:34,899][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:34,900][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:36,567][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:36,567][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:37,785][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:37,786][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:39,485][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:39,486][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:41,191][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:41,191][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:42,912][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:42,912][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:44,420][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:44,421][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:46,401][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:46,402][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:01:48,212][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:01:48,212][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:31,062][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:31,063][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:32,378][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:32,378][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:33,565][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:33,565][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:35,528][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:35,528][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:37,280][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:37,281][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:38,821][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:38,822][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:40,727][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:40,728][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:42,709][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:42,709][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:44,691][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:44,692][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:46,286][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:46,286][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:47,499][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:47,502][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:49,518][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:49,519][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:51,116][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:51,117][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:52,480][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:52,484][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:53,626][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:53,627][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:55,358][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:55,359][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:56,519][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:56,520][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:57,699][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:57,700][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:02:59,114][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:02:59,114][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:00,224][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:00,224][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:01,936][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:01,936][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:03,688][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:03,688][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:05,122][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:05,122][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:06,252][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:06,253][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:07,529][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:07,531][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:09,149][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:09,151][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:10,879][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:10,880][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:11,985][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:11,986][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:13,969][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:13,970][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:15,469][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:15,470][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:16,727][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:16,728][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:18,717][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:18,718][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:20,495][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 12:03:20,496][ClientCnxn$SendThread:1089] Session 0x160fdb9fd15000c for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 12:03:22,405][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 12:03:22,415][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 12:03:22,427][ClientCnxn$SendThread:1081] Unable to reconnect to ZooKeeper service, session 0x160fdb9fd15000c has expired, closing socket connection
+[INFO ][20180120 12:03:22,427][ZkClient:449] zookeeper state changed (Expired)
+[INFO ][20180120 12:03:22,428][ZooKeeper:438] Initiating client connection, connectString=47.100.116.212:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@142269f2
+[INFO ][20180120 12:03:22,431][ClientCnxn$EventThread:509] EventThread shut down
+[INFO ][20180120 12:03:22,431][FailbackRegistry:282]  [DUBBO] Recover register url [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 12:03:22,433][FailbackRegistry:292]  [DUBBO] Recover subscribe url [provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 12:03:26,141][FailbackRegistry:309]  [DUBBO] Retry register [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 12:03:27,056][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 12:03:27,066][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 12:03:27,079][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd150014, negotiated timeout = 30000
+[INFO ][20180120 12:03:27,079][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20180120 12:03:27,087][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 12:03:27,324][FailbackRegistry:354]  [DUBBO] Retry subscribe {provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@2d6764b2]}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 12:03:27,374][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20180120 13:11:28,623][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server 47.100.116.212/47.100.116.212:2181, unexpected error, closing socket connection and attempting reconnect
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:355)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:28,725][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 13:11:29,933][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:29,936][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:31,345][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:31,347][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:32,980][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:32,981][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:35,083][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:35,085][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:36,289][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:36,290][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:38,096][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:38,098][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:40,047][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:40,048][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:41,695][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:41,698][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:43,290][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:43,291][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:44,684][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:44,685][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:46,377][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:46,380][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:48,348][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:48,351][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:50,233][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:50,236][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:51,955][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:51,957][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:53,835][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:53,838][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:55,650][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:55,651][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:57,019][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:57,060][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:11:58,169][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:11:58,171][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:00,250][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:00,252][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:01,595][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:01,597][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:03,510][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:03,512][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:04,841][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:04,843][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:06,244][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:06,245][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:07,581][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:07,583][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:09,126][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:09,127][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:10,778][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:10,781][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:12,287][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:12,288][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:14,115][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:14,117][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:15,955][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:15,956][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:17,083][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:17,084][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:18,928][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:18,929][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:20,033][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:20,034][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:22,109][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:22,110][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:23,662][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:23,664][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:24,929][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:24,930][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:26,681][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:26,682][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:28,298][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:28,298][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:29,723][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:29,724][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:31,582][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:31,583][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:33,016][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:33,017][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:34,499][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:34,499][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:35,721][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:35,722][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:37,510][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:37,511][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:38,907][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:38,907][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:40,621][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:40,622][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:42,545][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:42,546][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:44,372][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:44,373][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:45,794][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:45,795][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:47,384][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:47,385][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:49,266][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:49,267][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:50,693][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:50,694][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:52,631][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:52,632][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:54,079][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:54,080][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:55,692][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:55,694][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:57,399][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:57,400][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:12:58,828][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:12:58,829][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:00,908][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:00,909][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:02,023][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:02,024][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:03,446][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:03,448][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:04,580][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:04,581][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:06,262][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:06,263][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:07,805][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:07,806][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:09,456][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:09,457][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:11,277][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:11,278][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:12,393][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:12,394][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:14,279][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:14,280][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:15,885][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:15,886][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:17,544][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:17,545][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:19,552][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:19,553][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:21,546][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:21,546][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:23,107][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:23,109][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:24,800][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:24,800][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:25,985][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:25,985][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:27,916][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:27,917][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:29,970][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:29,971][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:31,908][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:31,912][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:33,376][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:33,378][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:35,458][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:35,459][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:37,422][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:37,422][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:38,936][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:38,936][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:40,678][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:40,681][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:42,589][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:42,589][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:44,332][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:44,333][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:45,984][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:45,984][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:47,207][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:47,207][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:48,858][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:48,859][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:50,200][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:50,201][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:51,802][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:51,803][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:52,949][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:52,949][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:54,885][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:54,887][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:56,314][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:56,315][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:57,907][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:57,908][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:13:59,737][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:13:59,738][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:01,683][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:01,684][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:03,434][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:03,435][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:05,394][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:05,396][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:07,401][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:07,402][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:08,618][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:08,619][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:10,148][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:10,149][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:11,507][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:11,508][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:13,026][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:13,028][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:14,213][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:14,213][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:15,531][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:15,532][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:16,738][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:16,739][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:18,434][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:18,435][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:20,021][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:20,021][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:22,005][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:22,006][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:23,660][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:23,661][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:24,764][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:24,765][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:26,480][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:26,481][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:27,855][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:27,855][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:29,738][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:29,739][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:31,469][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:31,470][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:33,080][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:33,081][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:34,229][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:34,229][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:36,287][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:36,287][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:38,230][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:38,230][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:40,329][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:40,330][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:42,325][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:42,326][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:43,797][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:43,798][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:45,087][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:45,088][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:46,932][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:46,932][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:48,312][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:48,312][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:50,373][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:50,373][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:51,509][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:51,510][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:53,390][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:53,390][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:54,745][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:54,745][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:56,622][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:56,623][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:58,638][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:58,639][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:14:59,891][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:14:59,892][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:15:01,368][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:15:01,370][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:15:03,260][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:15:03,260][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:15:04,502][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:15:04,503][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:15:06,085][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:15:06,086][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:15:07,643][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:15:07,644][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:15:09,257][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:15:09,257][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:15:10,838][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:15:10,838][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150014 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:15:12,887][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 13:15:12,893][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 13:15:12,901][ClientCnxn$SendThread:1081] Unable to reconnect to ZooKeeper service, session 0x160fdb9fd150014 has expired, closing socket connection
+[INFO ][20180120 13:15:12,901][ZkClient:449] zookeeper state changed (Expired)
+[INFO ][20180120 13:15:12,901][ZooKeeper:438] Initiating client connection, connectString=47.100.116.212:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@142269f2
+[INFO ][20180120 13:15:12,903][ClientCnxn$EventThread:509] EventThread shut down
+[INFO ][20180120 13:15:12,903][FailbackRegistry:282]  [DUBBO] Recover register url [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 13:15:12,904][FailbackRegistry:292]  [DUBBO] Recover subscribe url [provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 13:15:13,156][FailbackRegistry:309]  [DUBBO] Retry register [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 13:15:17,448][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 13:15:17,465][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 13:15:17,475][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd150015, negotiated timeout = 30000
+[INFO ][20180120 13:15:17,475][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20180120 13:15:17,483][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 13:15:17,505][FailbackRegistry:354]  [DUBBO] Retry subscribe {provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@2d6764b2]}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 13:15:17,547][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20180120 13:19:18,204][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server 47.100.116.212/47.100.116.212:2181, unexpected error, closing socket connection and attempting reconnect
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:355)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:19:18,305][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 13:19:19,976][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:19:19,978][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:19:21,445][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:19:21,447][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:19:23,254][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:19:23,256][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:19:24,444][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:19:24,445][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:19:26,468][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:19:26,472][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:19:27,742][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:19:27,743][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:19:29,152][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 13:19:29,166][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 13:19:29,178][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd150015, negotiated timeout = 30000
+[INFO ][20180120 13:19:29,178][ZkClient:449] zookeeper state changed (SyncConnected)
+[WARN ][20180120 13:20:47,385][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server 47.100.116.212/47.100.116.212:2181, unexpected error, closing socket connection and attempting reconnect
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:355)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:20:47,486][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 13:20:48,543][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:20:48,545][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:20:50,531][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:20:50,532][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:20:52,450][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:20:52,452][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:20:53,568][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN ][20180120 13:20:53,569][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150015 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 13:20:55,622][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 13:20:55,632][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 13:20:55,642][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd150015, negotiated timeout = 30000
+[INFO ][20180120 13:20:55,643][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20180120 14:27:46,285][ClientCnxn$SendThread:1083] Client session timed out, have not heard from server in 90390ms for sessionid 0x160fdb9fd150015, closing socket connection and attempting reconnect
+[INFO ][20180120 14:27:46,387][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 14:27:47,395][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 14:27:47,403][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 14:27:47,648][ZkClient:449] zookeeper state changed (Expired)
+[INFO ][20180120 14:27:47,648][ClientCnxn$SendThread:1081] Unable to reconnect to ZooKeeper service, session 0x160fdb9fd150015 has expired, closing socket connection
+[INFO ][20180120 14:27:47,648][ZooKeeper:438] Initiating client connection, connectString=47.100.116.212:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@142269f2
+[INFO ][20180120 14:27:47,651][ClientCnxn$EventThread:509] EventThread shut down
+[INFO ][20180120 14:27:47,651][FailbackRegistry:282]  [DUBBO] Recover register url [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 14:27:47,652][FailbackRegistry:292]  [DUBBO] Recover subscribe url [provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 14:27:48,934][FailbackRegistry:309]  [DUBBO] Retry register [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 14:27:52,297][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 14:27:52,414][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 14:27:52,428][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd150016, negotiated timeout = 30000
+[INFO ][20180120 14:27:52,429][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20180120 14:27:52,442][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 14:27:52,466][FailbackRegistry:354]  [DUBBO] Retry subscribe {provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@2d6764b2]}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 14:27:52,548][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 17:38:20,073][ClientCnxn$SendThread:1083] Client session timed out, have not heard from server in 784718ms for sessionid 0x160fdb9fd150016, closing socket connection and attempting reconnect
+[INFO ][20180120 17:38:20,183][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 17:38:21,365][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 17:38:21,504][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 17:38:21,515][ClientCnxn$SendThread:1081] Unable to reconnect to ZooKeeper service, session 0x160fdb9fd150016 has expired, closing socket connection
+[INFO ][20180120 17:38:21,516][ZkClient:449] zookeeper state changed (Expired)
+[INFO ][20180120 17:38:21,516][ZooKeeper:438] Initiating client connection, connectString=47.100.116.212:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@142269f2
+[INFO ][20180120 17:38:21,524][ClientCnxn$EventThread:509] EventThread shut down
+[INFO ][20180120 17:38:21,554][FailbackRegistry:282]  [DUBBO] Recover register url [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 17:38:21,555][FailbackRegistry:292]  [DUBBO] Recover subscribe url [provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 17:38:26,337][FailbackRegistry:309]  [DUBBO] Retry register [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 17:38:26,353][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 17:38:26,377][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 17:38:26,387][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd150017, negotiated timeout = 30000
+[INFO ][20180120 17:38:26,388][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20180120 17:38:26,400][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 17:38:26,432][FailbackRegistry:354]  [DUBBO] Retry subscribe {provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@2d6764b2]}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 17:38:26,509][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 17:38:46,945][ClientCnxn$SendThread:1083] Client session timed out, have not heard from server in 20436ms for sessionid 0x160fdb9fd150017, closing socket connection and attempting reconnect
+[INFO ][20180120 17:38:47,046][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 17:38:48,462][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 17:38:48,469][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 17:38:48,480][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd150017, negotiated timeout = 30000
+[INFO ][20180120 17:38:48,480][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20180120 18:10:35,744][ClientCnxn$SendThread:1083] Client session timed out, have not heard from server in 107173ms for sessionid 0x160fdb9fd150017, closing socket connection and attempting reconnect
+[INFO ][20180120 18:10:35,845][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 18:10:36,865][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 18:10:36,921][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 18:10:37,171][ClientCnxn$SendThread:1081] Unable to reconnect to ZooKeeper service, session 0x160fdb9fd150017 has expired, closing socket connection
+[INFO ][20180120 18:10:37,172][ZkClient:449] zookeeper state changed (Expired)
+[INFO ][20180120 18:10:37,173][ZooKeeper:438] Initiating client connection, connectString=47.100.116.212:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@142269f2
+[INFO ][20180120 18:10:37,180][ClientCnxn$EventThread:509] EventThread shut down
+[INFO ][20180120 18:10:37,180][FailbackRegistry:282]  [DUBBO] Recover register url [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 18:10:37,189][FailbackRegistry:292]  [DUBBO] Recover subscribe url [provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 18:10:39,483][FailbackRegistry:309]  [DUBBO] Retry register [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 18:10:41,887][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 18:10:41,896][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 18:10:41,909][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd150018, negotiated timeout = 30000
+[INFO ][20180120 18:10:41,909][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20180120 18:10:41,920][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 18:10:41,946][FailbackRegistry:354]  [DUBBO] Retry subscribe {provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@2d6764b2]}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 18:10:41,990][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[WARN ][20180120 21:38:31,714][ClientCnxn$SendThread:1089] Session 0x160fdb9fd150018 for server 47.100.116.212/47.100.116.212:2181, unexpected error, closing socket connection and attempting reconnect
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:355)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+[INFO ][20180120 21:38:31,840][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 21:38:34,198][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 21:38:34,212][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 21:38:34,222][ClientCnxn$SendThread:1081] Unable to reconnect to ZooKeeper service, session 0x160fdb9fd150018 has expired, closing socket connection
+[INFO ][20180120 21:38:34,224][ZkClient:449] zookeeper state changed (Expired)
+[INFO ][20180120 21:38:34,224][ZooKeeper:438] Initiating client connection, connectString=47.100.116.212:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@142269f2
+[INFO ][20180120 21:38:34,226][ClientCnxn$EventThread:509] EventThread shut down
+[INFO ][20180120 21:38:34,226][FailbackRegistry:282]  [DUBBO] Recover register url [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 21:38:34,227][FailbackRegistry:292]  [DUBBO] Recover subscribe url [provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 21:38:37,207][FailbackRegistry:309]  [DUBBO] Retry register [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 21:38:38,995][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 21:38:39,002][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 21:38:39,013][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd150019, negotiated timeout = 30000
+[INFO ][20180120 21:38:39,014][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20180120 21:38:39,025][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 21:38:39,047][FailbackRegistry:354]  [DUBBO] Retry subscribe {provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@2d6764b2]}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 21:38:39,094][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 22:24:22,628][ClientCnxn$SendThread:1083] Client session timed out, have not heard from server in 2743534ms for sessionid 0x160fdb9fd150019, closing socket connection and attempting reconnect
+[INFO ][20180120 22:24:25,650][ZkClient:449] zookeeper state changed (Disconnected)
+[INFO ][20180120 22:24:27,371][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 22:24:27,379][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 22:24:27,391][ZkClient:449] zookeeper state changed (Expired)
+[INFO ][20180120 22:24:27,391][ClientCnxn$SendThread:1081] Unable to reconnect to ZooKeeper service, session 0x160fdb9fd150019 has expired, closing socket connection
+[INFO ][20180120 22:24:27,391][ZooKeeper:438] Initiating client connection, connectString=47.100.116.212:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@142269f2
+[INFO ][20180120 22:24:27,393][ClientCnxn$EventThread:509] EventThread shut down
+[INFO ][20180120 22:24:27,393][FailbackRegistry:282]  [DUBBO] Recover register url [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 22:24:27,398][FailbackRegistry:292]  [DUBBO] Recover subscribe url [provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 22:24:27,640][FailbackRegistry:309]  [DUBBO] Retry register [dubbo://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 22:24:31,939][ClientCnxn$SendThread:966] Opening socket connection to server 47.100.116.212/47.100.116.212:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ][20180120 22:24:31,978][ClientCnxn$SendThread:849] Socket connection established to 47.100.116.212/47.100.116.212:2181, initiating session
+[INFO ][20180120 22:24:31,989][ClientCnxn$SendThread:1207] Session establishment complete on server 47.100.116.212/47.100.116.212:2181, sessionid = 0x160fdb9fd15001a, negotiated timeout = 30000
+[INFO ][20180120 22:24:31,990][ZkClient:449] zookeeper state changed (SyncConnected)
+[INFO ][20180120 22:24:31,998][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 22:24:32,094][FailbackRegistry:354]  [DUBBO] Retry subscribe {provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687=[com.alibaba.dubbo.registry.integration.RegistryProtocol$OverrideListener@2d6764b2]}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ][20180120 22:24:32,147][AbstractRegistry:422]  [DUBBO] Notify urls for subscribe url provider://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687, urls: [empty://192.168.1.102:20880/com.silentdream.facade.user.service.UserFacade?anyhost=true&application=gw-service-user&category=configurators&check=false&dubbo=2.5.3&interface=com.silentdream.facade.user.service.UserFacade&methods=findUserByUserNo,getById,update,create,updateUserPwd,deleteUserById&pid=5900&side=provider&timestamp=1516115033687], dubbo version: 2.5.3, current host: 127.0.0.1

@@ -14,7 +14,6 @@
 		<module>silent-dream-service-user</module>
 		<module>silent-dream-web-user</module>
 	</modules>
-
 	<name>silent-dream-parent</name>
 	<url>http://maven.apache.org</url>
 
