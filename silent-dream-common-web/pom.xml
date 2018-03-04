@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>silent-dream-common-web</artifactId>
+  <version>${silent-dream-common-web.version}</version>
+  <packaging>jar</packaging>
+  <description>project common web resource</description>
+  
+  <parent>
+		<groupId>com.silentdream.common</groupId>
+		<artifactId>silent-dream-common-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../silent-dream-common-parent</relativePath>
+	</parent>
+	
+</project>
