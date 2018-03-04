@@ -6,6 +6,14 @@
 	<artifactId>silent-dream-common-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<modules>
+		<module>silent-dream-common</module>
+		<module>silent-dream-common-config</module>
+		<module>silent-dream-common-web</module>
+		<module>silent-dream-facade-user</module>
+		<module>silent-dream-service-user</module>
+		<module>silent-dream-web-user</module>
+	</modules>
 
 	<name>silent-dream-parent</name>
 	<url>http://maven.apache.org</url>
